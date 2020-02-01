@@ -5,10 +5,15 @@ This study analyzes the effect of increasing import exposure of top six trading 
 
 ## Codes
 *1ImportDifference* : Computes three four-year differences in imports at the commodity level from the trading partners 
+
 *2CleanCrime*: Feature engineers new property and violent crimes from Unified Crime Reports database and creates four year differences at the commuting-zone level
+
 *3CZEmployments*: Finds the business employments at the commuting zone level from the County Business Pattern dataset
+
 *4ExposureProgram*: Uses the UN Comtrade database and merge it the commuting zone employments to create a proxy for import exposure from each county for the given time periods
+
 *5UnemploymentProgram*: Matches unemployment at the county level with the commuting zones created to find unemployment at the commuting zone level
+
 *6FinalData*: Merges all the dataset at the commuting zone level to output a clean dataset to run the models
 
 ## Paper
